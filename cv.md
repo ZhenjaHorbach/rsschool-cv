@@ -10,7 +10,7 @@ live in **Grodno,Belarus**
 
 **+375-29-350-13-43**
 
-[Email](horbachevgen@gmail.com)
+[Email:horbachevgen@gmail.com](horbachevgen@gmail.com)
 
 ---
 
@@ -65,10 +65,8 @@ B1
 
 ### Contact me
 
----
+[Linkedin: https://www.linkedin.com/in/evgen-horbach-b53874171/](https://www.linkedin.com/in/evgen-horbach-b53874171/)
 
-[Linkedin](https://www.linkedin.com/in/evgen-horbach-b53874171/)
+[GitHub: https://github.com/ZhenjaHorbach](https://github.com/ZhenjaHorbach)
 
-[GitHub: ](https://github.com/ZhenjaHorbach)
-
-[Facebook: ](https://facebook.com/ZhenjaHorbach)
+[Facebook: https://facebook.com/ZhenjaHorbach](https://facebook.com/ZhenjaHorbach)
