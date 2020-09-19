@@ -1,0 +1,65 @@
+header,
+main {
+	max-width: 720px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color: crimson;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+h2 {
+	text-align: center;
+}
+.header-info {
+	margin: 50px 0;
+}
+.header-body {
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+}
+.header-info p {
+	margin: 10px 0;
+}
+.header-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-image: url(https://sun9-55.userapi.com/ZD0wbxS6yGHUcFOA0zSmqe_oyhFk7WNydW4_Og/GR1qTgrRXiI.jpg);
+	background-size: cover;
+	background-position: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 35px;
+	text-align: center;
+}
+.skills-items {
+	display: flex;
+	justify-content: space-between;
+}
+.level {
+	font-size: 40px;
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(240, 240, 240);
+	border-top: 1px solid rgb(219, 219, 219);
+}
+footer h3 {
+	font-size: 30px;
+}
+.footer-icon {
+	display: flex;
+	justify-content: center;
+}
