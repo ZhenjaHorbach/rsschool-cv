@@ -42,6 +42,12 @@ A2
 
 ---
 
+###Polish level 
+
+B1
+
+---
+
 ###Contact me
 
 ---
