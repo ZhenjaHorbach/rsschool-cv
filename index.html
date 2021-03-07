@@ -4,97 +4,172 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae</title>
-    <link
-      rel="shortcut icon"
-      href="https://static.thenounproject.com/png/216710-200.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="/image/title.png" type="image/x-icon" />
     <link rel="stylesheet" href="/style/style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Junior Developer Resume</h1>
-      <h2>Yauheni Horbach</h2>
-      <div>
-        <div>
-          <p>live in <span class="bold">Grodno,Belarus</span></p>
-          <p class="bold">+375-29-350-13-43</p>
-          <a href="horbachevgen@gmail.com">horbachevgen@gmail.com</a>
+    <header class="header">
+      <h1 class="header__vacancy">Front-end Developer</h1>
+      <h2 class="header__name">Yauheni Horbach</h2>
+      <img class="header__image" alt="My Photo" src="/image/myPhoto.jpg" />
+      <address class="header__info info-person">
+        <p class="header__info-el info-person__location">
+          live in <strong>Grodno,Belarus</strong>
+        </p>
+        <p class="header__info-el info-person__phone">+375-29-350-13-43</p>
+        <a
+          class="header__info-el info-person__email"
+          href="https://horbachevgen@gmail.com"
+          >horbachevgen@gmail.com</a
+        >
+      </address>
+      <nav class="header__menu">
+        <div class="header__menu-el">
+          <a href="#">Summary</a>
         </div>
-      </div>
-      <nav>
-        <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
-        <a href="/js/">JavaScript</a> |
-        <a href="/jquery/">jQuery</a>
+        <div class="header__menu-el">
+          <a href="#">Skills</a>
+        </div>
+        <div class="header__menu-el">
+          <a href="#"> My projects</a>
+        </div>
+        <div class="header__menu-el">
+          <a href="#">language</a>
+        </div>
+        <div class="header__menu-el">
+          <a href="#">Contact me</a>
+        </div>
       </nav>
     </header>
-    <main>
-      <section class="summary">
-        <h3>Summary</h3>
-        <p>
+    <main class="main">
+      <section class="main__element summary">
+        <h3 class="summary__name">Summary</h3>
+        <p class="summary__text">
           My name is Yauheni Horbach. I was born and live in Belarus. I am
           engaged in web development.
         </p>
-        <p>
-          Finished Frontend developer courses in Minsk (Teachmeskills). At the
-          moment, he is able to make up a site of any complexity with strict
-          adherence to all requirements (adaptive and fluid layout). I am
-          familiar with all modern technologies in this area (Flexbox, grid,
-          bootstrap). I use BEM methodology. In addition, it can embed jQuery
-          elements on the site. I speak English and Polish at the user level.
+        <p class="summary__text">
+          I am looking for possible Junior Frontend Developer positions or
+          internships related to frontend development. In the future, I want to
+          become a pro in the development of interfaces, for this I want to join
+          a team of experienced developers in order to learn from their
+          experience and develop on real projects. Practical experience is based
+          on individual projects during which I mastered setting up the
+          environment (npm, eslint, node.js), working with the Git version
+          control system, ES6 + syntax, async / await, I adhere to the
+          functional style, I have an idea of OOP. Familiar with layout and
+          related technologies such as HTML5, CSS / Sass / Scss, BEM, Semantic
+          Layout, Responsive / Responsive Layout, Bootstrap.
         </p>
-        <p>
-          Hardworking, I do the work on time, I work with strict adherence to
-          the requirements.
+        <p class="summary__text">
+          I chose JavaScript, React, Redux as the main stack.
         </p>
       </section>
-      <section class="skills">
-        <h3>Skills</h3>
-        <div class="skills-items">
-          <div class="skills-left">
-            <p>◾◾◾◾◾ HTML</p>
-            <p>◾◾◾◾◾ CSS</p>
-            <p>◾◾◾◾◽ VScode</p>
-            <p>◾◾◾◾◽ SCSS, SASS, LESS</p>
-            <p>◾◾◾◾◽ BEM</p>
+      <section class="main__element skills">
+        <h3 class="skills__name">Skills</h3>
+        <ul class="skills__items">
+          <li class="skills__item">◾◾◾◾◾ HTML</li>
+          <li class="skills__item">◾◾◾◾◾ CSS(SCSS, SASS, LESS)</li>
+          <li class="skills__item">◾◾◾◾◽ JS (ES5, ES6)</li>
+          <li class="skills__item">◾◾◾◾◽ Git</li>
+          <li class="skills__item">◾◾◾◽◽ Figma, Photoshop, Avocode</li>
+          <li class="skills__item">◾◾◾◽◽ React(Redux)</li>
+          <li class="skills__item">◾◾◾◽◽ Node.Js</li>
+          <li class="skills__item">◾◾◾◽◽ Express.js</li>
+        </ul>
+      </section>
+      <section class="main__element projects">
+        <h3 class="projects__name">My projects</h3>
+        <ul class="projects__items">
+          <li class="skills__item">
+            <a target="_blank" href="https://zhenjahorbach-covid.netlify.app"
+              >Сovid-19 dashboard</a
+            >
+          </li>
+          <li class="skills__item">
+            <a
+              target="_blank"
+              href="https://zhenjahorbach-calculator.netlify.app"
+              >Calculator</a
+            >
+          </li>
+          <li class="skills__item">
+            <a
+              target="_blank"
+              href="https://zhenjahorbach-shelter.netlify.app/pages/main"
+              >Shelter</a
+            >
+          </li>
+          <li class="skills__item">
+            <a href="https://zhenjahorbach-gem-puzzle.netlify.app">Puzzle</a>
+          </li>
+          <li class="skills__item">
+            <a
+              target="_blank"
+              href="https://zhenjahorbach-virtual-keyboard.netlify.app"
+              >Virtual keyboard</a
+            >
+          </li>
+          <li class="skills__item">
+            <a
+              target="_blank"
+              href="https://zhenjahorbach-english-for-kids.netlify.app"
+              >Englsih for kinds</a
+            >
+          </li>
+          <li class="skills__item">
+            <a target="_blank" href="https://zhenjahorbach-momentum.netlify.app"
+              >Momentum</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="main__element languages">
+        <h3 class="languages__name">Language</h3>
+        <div class="languages__items">
+          <div class="languages__item language">
+            <h4 class="language__name">Polish level</h4>
+            <p class="language__level">B1</p>
           </div>
-          <div class="skills-right">
-            <p>◾◾◾◾◽ Bootstrap</p>
-            <p>◾◾◾◽◽ Figma, Photoshop, Avocode</p>
-            <p>◾◾◾◽◽ Python</p>
-            <p>◾◾◾◽◽ Semantic UI</p>
-            <p>◾◾◽◽◽ JS (ES5, ES6)</p>
+          <div class="language__item">
+            <h4 class="language__name">English level</h4>
+            <p class="language__level">B1</p>
+          </div>
+          <div class="language__item">
+            <h4 class="language__name">Russian level</h4>
+            <p class="language__level">C2</p>
+          </div>
+          <div class="language__item">
+            <h4 class="language__name">Belarusian level</h4>
+            <p class="language__level">C2</p>
           </div>
         </div>
-      </section>
-      <section class="english">
-        <h3>English level</h3>
-        <p class="level">A2</p>
-      </section>
-      <section class="polish">
-        <h3>Polish level</h3>
-        <p class="level">B1</p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <h3>Contact me</h3>
-      <div class="footer-icon">
+      <div class="footer__contact">
         <div>
-          <a href="https://www.linkedin.com/in/evgen-horbach-b53874171/"
-            ><img
-              src="https://img.icons8.com/plasticine/50/000000/linkedin.png"
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/evgen-horbach-b53874171/"
+            ><img alt="Linkedin" src="/image/linkedin.png"
           /></a>
         </div>
         <div>
-          <a href="https://github.com/ZhenjaHorbach"
-            ><img src="https://img.icons8.com/color/50/000000/git.png"
+          <a target="_blank" href="https://github.com/ZhenjaHorbach"
+            ><img alt="Github" src="/image/git.png"
           /></a>
         </div>
         <div>
-          <a href="https://facebook.com/ZhenjaHorbach"
-            ><img
-              src="https://img.icons8.com/carbon-copy/50/000000/facebook.png"
+          <a target="_blank" href="https://facebook.com/ZhenjaHorbach"
+            ><img alt="Facebook" src="/image/facebook.png"
+          /></a>
+        </div>
+        <div>
+          <a target="_blank" href="https://vk.com/zhenjaho"
+            ><img alt="VK" src="/image/vk.png"
           /></a>
         </div>
       </div>
